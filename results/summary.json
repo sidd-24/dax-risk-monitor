@@ -1,0 +1,222 @@
+{
+  "weeks": 1145,
+  "first_week": "2005-01-21",
+  "last_week": "2026-11-06",
+  "backtest_from": "2007-01-26",
+  "portfolio": {
+    "return_pa": 0.10778564202558671,
+    "volatility_pa": 0.21355540849855872,
+    "sharpe": 0.5232691078298656,
+    "max_drawdown": -0.5800880130957573,
+    "worst_week": "2008-10-10",
+    "worst_week_return": -0.24948908444758758
+  },
+  "backtest": [
+    {
+      "model": "Historical simulation",
+      "exceptions": 25,
+      "expected": 10.4,
+      "kupiec_p": 0.0001174633840448358,
+      "clustering_p": 0.1400888243200118,
+      "green_share": 0.45454545454545453,
+      "yellow_share": 0.5378787878787878,
+      "red_share": 0.007575757575757576,
+      "average_var": 0.07253334740807377,
+      "loss_beyond_var": 1.6623623417092626
+    },
+    {
+      "model": "EWMA (RiskMetrics)",
+      "exceptions": 20,
+      "expected": 10.4,
+      "kupiec_p": 0.008023900737367806,
+      "clustering_p": 0.396257181563455,
+      "green_share": 0.7866161616161617,
+      "yellow_share": 0.21338383838383837,
+      "red_share": 0.0,
+      "average_var": 0.06702941771184848,
+      "loss_beyond_var": 1.6164314272214557
+    },
+    {
+      "model": "GARCH(1,1), Student-t",
+      "exceptions": 20,
+      "expected": 10.4,
+      "kupiec_p": 0.008023900737367806,
+      "clustering_p": 0.05640165437853473,
+      "green_share": 0.7045454545454546,
+      "yellow_share": 0.2702020202020202,
+      "red_share": 0.025252525252525252,
+      "average_var": 0.06618239941820943,
+      "loss_beyond_var": 1.4895403522276305
+    },
+    {
+      "model": "Filtered historical simulation",
+      "exceptions": 15,
+      "expected": 10.4,
+      "kupiec_p": 0.17983673678612155,
+      "clustering_p": 0.20881263601403444,
+      "green_share": 0.9659090909090909,
+      "yellow_share": 0.03409090909090909,
+      "red_share": 0.0,
+      "average_var": 0.07764370200703752,
+      "loss_beyond_var": 1.64634074878044
+    }
+  ],
+  "var_next_week": {
+    "Historical simulation": 0.07779662106226454,
+    "EWMA (RiskMetrics)": 0.04753772266341638,
+    "GARCH(1,1), Student-t": 0.05279127773331939,
+    "Filtered historical simulation": 0.0553588679008075
+  },
+  "snapshot": [
+    {
+      "symbol": "IFX",
+      "Company": "Infineon",
+      "Sector": "Semiconductors",
+      "Volatility (52 w, p.a.)": 0.4990228154461654,
+      "Beta (2 y)": 1.5293113762276584,
+      "Share of portfolio risk": 0.10195409174851065,
+      "Sharpe ratio (since 2005)": 0.41289110052036143,
+      "Max drawdown (since 2005)": -0.9693339476782881
+    },
+    {
+      "symbol": "DBK",
+      "Company": "Deutsche Bank",
+      "Sector": "Banks",
+      "Volatility (52 w, p.a.)": 0.3198520468573064,
+      "Beta (2 y)": 1.4528489874392816,
+      "Share of portfolio risk": 0.09685659916261878,
+      "Sharpe ratio (since 2005)": 0.17574259363556854,
+      "Max drawdown (since 2005)": -0.9225545360338481
+    },
+    {
+      "symbol": "BMW",
+      "Company": "BMW",
+      "Sector": "Autos",
+      "Volatility (52 w, p.a.)": 0.2953956231978232,
+      "Beta (2 y)": 1.4510312078939949,
+      "Share of portfolio risk": 0.09673541385959973,
+      "Sharpe ratio (since 2005)": 0.350617407738271,
+      "Max drawdown (since 2005)": -0.6052118367248178
+    },
+    {
+      "symbol": "SIE",
+      "Company": "Siemens",
+      "Sector": "Industrials",
+      "Volatility (52 w, p.a.)": 0.263814836389723,
+      "Beta (2 y)": 1.396238901242136,
+      "Share of portfolio risk": 0.0930825934161424,
+      "Sharpe ratio (since 2005)": 0.44695764969358304,
+      "Max drawdown (since 2005)": -0.6321846175552459
+    },
+    {
+      "symbol": "BAYN",
+      "Company": "Bayer",
+      "Sector": "Pharma",
+      "Volatility (52 w, p.a.)": 0.45638829216269433,
+      "Beta (2 y)": 1.382065591870031,
+      "Share of portfolio risk": 0.09213770612466875,
+      "Sharpe ratio (since 2005)": 0.34155737756389415,
+      "Max drawdown (since 2005)": -0.8222347185620908
+    },
+    {
+      "symbol": "MBG",
+      "Company": "Mercedes-Benz",
+      "Sector": "Autos",
+      "Volatility (52 w, p.a.)": 0.24560671373281268,
+      "Beta (2 y)": 1.3394153830688307,
+      "Share of portfolio risk": 0.08929435887125542,
+      "Sharpe ratio (since 2005)": 0.3151008177388168,
+      "Max drawdown (since 2005)": -0.7562266303314532
+    },
+    {
+      "symbol": "ADS",
+      "Company": "Adidas",
+      "Sector": "Consumer",
+      "Volatility (52 w, p.a.)": 0.31961964478021043,
+      "Beta (2 y)": 1.3152457934970847,
+      "Share of portfolio risk": 0.08768305289980564,
+      "Sharpe ratio (since 2005)": 0.41702183355520567,
+      "Max drawdown (since 2005)": -0.683055485716004
+    },
+    {
+      "symbol": "BAS",
+      "Company": "BASF",
+      "Sector": "Chemicals",
+      "Volatility (52 w, p.a.)": 0.24384065370412655,
+      "Beta (2 y)": 1.111505023353971,
+      "Share of portfolio risk": 0.07410033489026475,
+      "Sharpe ratio (since 2005)": 0.3721617213886156,
+      "Max drawdown (since 2005)": -0.576404619735253
+    },
+    {
+      "symbol": "ALV",
+      "Company": "Allianz",
+      "Sector": "Insurance",
+      "Volatility (52 w, p.a.)": 0.19202279119406168,
+      "Beta (2 y)": 0.8489219968433614,
+      "Share of portfolio risk": 0.056594799789557435,
+      "Sharpe ratio (since 2005)": 0.4939492195907786,
+      "Max drawdown (since 2005)": -0.7251907762044372
+    },
+    {
+      "symbol": "HEN3",
+      "Company": "Henkel",
+      "Sector": "Consumer",
+      "Volatility (52 w, p.a.)": 0.23106515642356362,
+      "Beta (2 y)": 0.7193400885375815,
+      "Share of portfolio risk": 0.04795600590250546,
+      "Sharpe ratio (since 2005)": 0.40902463224746793,
+      "Max drawdown (since 2005)": -0.5399816477682375
+    },
+    {
+      "symbol": "SAP",
+      "Company": "SAP",
+      "Sector": "Software",
+      "Volatility (52 w, p.a.)": 0.37702190642393935,
+      "Beta (2 y)": 0.7107100562763478,
+      "Share of portfolio risk": 0.0473806704184232,
+      "Sharpe ratio (since 2005)": 0.47195640113770493,
+      "Max drawdown (since 2005)": -0.5029801184636918
+    },
+    {
+      "symbol": "MUV2",
+      "Company": "Munich Re",
+      "Sector": "Insurance",
+      "Volatility (52 w, p.a.)": 0.18850988781191916,
+      "Beta (2 y)": 0.5924396754754316,
+      "Share of portfolio risk": 0.039495978365028786,
+      "Sharpe ratio (since 2005)": 0.5915365235554539,
+      "Max drawdown (since 2005)": -0.4447395681909918
+    },
+    {
+      "symbol": "DTE",
+      "Company": "Deutsche Telekom",
+      "Sector": "Telecom",
+      "Volatility (52 w, p.a.)": 0.25411637005471605,
+      "Beta (2 y)": 0.5484538074895696,
+      "Share of portfolio risk": 0.03656358716597132,
+      "Sharpe ratio (since 2005)": 0.3741036598822115,
+      "Max drawdown (since 2005)": -0.38721401857672144
+    },
+    {
+      "symbol": "RWE",
+      "Company": "RWE",
+      "Sector": "Utilities",
+      "Volatility (52 w, p.a.)": 0.2682014170138245,
+      "Beta (2 y)": 0.3097939390890201,
+      "Share of portfolio risk": 0.02065292927260134,
+      "Sharpe ratio (since 2005)": 0.28352292320973765,
+      "Max drawdown (since 2005)": -0.84333546762476
+    },
+    {
+      "symbol": "EOAN",
+      "Company": "E.ON",
+      "Sector": "Utilities",
+      "Volatility (52 w, p.a.)": 0.23456961935991835,
+      "Beta (2 y)": 0.2926781716956948,
+      "Share of portfolio risk": 0.01951187811304633,
+      "Sharpe ratio (since 2005)": 0.27249453698552895,
+      "Max drawdown (since 2005)": -0.7531584357759379
+    }
+  ]
+}
