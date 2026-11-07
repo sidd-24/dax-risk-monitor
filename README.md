@@ -80,7 +80,7 @@ An equal-weight portfolio of 15 DAX companies with full history back to 2005, re
 ## Data
 
 - **Prices:** [Alpha Vantage](https://www.alphavantage.co), weekly closes on XETRA, adjusted for dividends and splits, from January 2005. The free tier gives full weekly history (daily history is a paid feature) and 25 requests a day, so every response is cached.
-- **Risk-free rate:** the ECB main refinancing rate from the [Deutsche Bundesbank statistics API](https://www.bundesbank.de/en/statistics/time-series-databases), used for the Sharpe ratios.
+- **Risk-free rate:** the ECB main refinancing rate from the [Deutsche Bundesbank](https://www.bundesbank.de/en/statistics) statistics API, series [`BBIN1.M.D0.ECB.ECBMIN.EUR.ME`](https://api.statistiken.bundesbank.de/rest/data/BBIN1/M.D0.ECB.ECBMIN.EUR.ME), used for the Sharpe ratios.
 - **Checks:** every week where a stock moved more than 25 % was traced to a real event, such as October 2008, Infineon during the Qimonda crisis, the COVID crash, SAP's October 2020 profit warning, and Deutsche Bank when the war in Ukraine began. None came from a data error. Spin-offs like Daimler Truck are correctly adjusted.
 
 ## Methods
