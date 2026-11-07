@@ -45,8 +45,8 @@
       "green_share": 0.7045454545454546,
       "yellow_share": 0.2702020202020202,
       "red_share": 0.025252525252525252,
-      "average_var": 0.06618239941820943,
-      "loss_beyond_var": 1.4895403522276305
+      "average_var": 0.06618418135692561,
+      "loss_beyond_var": 1.4898265937591133
     },
     {
       "model": "Filtered historical simulation",
@@ -64,7 +64,7 @@
   "var_next_week": {
     "Historical simulation": 0.07779662106226454,
     "EWMA (RiskMetrics)": 0.04753772266341638,
-    "GARCH(1,1), Student-t": 0.05279127773331939,
+    "GARCH(1,1), Student-t": 0.052791278142598166,
     "Filtered historical simulation": 0.0553588679008075
   },
   "snapshot": [
@@ -74,7 +74,7 @@
       "Sector": "Semiconductors",
       "Volatility (52 w, p.a.)": 0.4990228154461654,
       "Beta (2 y)": 1.5293113762276584,
-      "Share of portfolio risk": 0.10195409174851065,
+      "Share of portfolio risk": 0.10195409174851064,
       "Sharpe ratio (since 2005)": 0.41289110052036143,
       "Max drawdown (since 2005)": -0.9693339476782881
     },
@@ -134,7 +134,7 @@
       "Sector": "Consumer",
       "Volatility (52 w, p.a.)": 0.31961964478021043,
       "Beta (2 y)": 1.3152457934970847,
-      "Share of portfolio risk": 0.08768305289980564,
+      "Share of portfolio risk": 0.08768305289980566,
       "Sharpe ratio (since 2005)": 0.41702183355520567,
       "Max drawdown (since 2005)": -0.683055485716004
     },
@@ -164,7 +164,7 @@
       "Sector": "Consumer",
       "Volatility (52 w, p.a.)": 0.23106515642356362,
       "Beta (2 y)": 0.7193400885375815,
-      "Share of portfolio risk": 0.04795600590250546,
+      "Share of portfolio risk": 0.04795600590250547,
       "Sharpe ratio (since 2005)": 0.40902463224746793,
       "Max drawdown (since 2005)": -0.5399816477682375
     },
@@ -214,7 +214,7 @@
       "Sector": "Utilities",
       "Volatility (52 w, p.a.)": 0.23456961935991835,
       "Beta (2 y)": 0.2926781716956948,
-      "Share of portfolio risk": 0.01951187811304633,
+      "Share of portfolio risk": 0.019511878113046333,
       "Sharpe ratio (since 2005)": 0.27249453698552895,
       "Max drawdown (since 2005)": -0.7531584357759379
     }
