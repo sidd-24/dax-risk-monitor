@@ -8,32 +8,32 @@ How much can a portfolio of German blue chips lose in a bad week, and which risk
 ## Current risk
 
 <!-- SNAPSHOT:START -->
-*Week ending 2026-11-06. Updated automatically every week.*
+*Week ending 2026-11-13. Updated automatically every week.*
 
 | Next week's 99 % VaR | Loss on a EUR 1m portfolio |
 |---|---:|
 | Historical simulation | EUR 77,797 (7.8%) |
-| EWMA (RiskMetrics) | EUR 47,538 (4.8%) |
-| GARCH(1,1), Student-t | EUR 52,791 (5.3%) |
-| Filtered historical simulation | EUR 55,359 (5.5%) |
+| EWMA (RiskMetrics) | EUR 48,159 (4.8%) |
+| GARCH(1,1), Student-t | EUR 54,528 (5.5%) |
+| Filtered historical simulation | EUR 56,087 (5.6%) |
 
 | Stock | Sector | Volatility | Beta | Share of risk | Sharpe | Max drawdown |
 |---|---|---:|---:|---:|---:|---:|
-| Infineon | Semiconductors | 50% | 1.53 | 10.2% | 0.41 | -97% |
-| Deutsche Bank | Banks | 32% | 1.45 | 9.7% | 0.18 | -92% |
-| BMW | Autos | 30% | 1.45 | 9.7% | 0.35 | -61% |
-| Siemens | Industrials | 26% | 1.40 | 9.3% | 0.45 | -63% |
-| Bayer | Pharma | 46% | 1.38 | 9.2% | 0.34 | -82% |
-| Mercedes-Benz | Autos | 25% | 1.34 | 8.9% | 0.32 | -76% |
-| Adidas | Consumer | 32% | 1.32 | 8.8% | 0.42 | -68% |
-| BASF | Chemicals | 24% | 1.11 | 7.4% | 0.37 | -58% |
-| Allianz | Insurance | 19% | 0.85 | 5.7% | 0.49 | -73% |
-| Henkel | Consumer | 23% | 0.72 | 4.8% | 0.41 | -54% |
-| SAP | Software | 38% | 0.71 | 4.7% | 0.47 | -50% |
-| Munich Re | Insurance | 19% | 0.59 | 3.9% | 0.59 | -44% |
-| Deutsche Telekom | Telecom | 25% | 0.55 | 3.7% | 0.37 | -39% |
-| RWE | Utilities | 27% | 0.31 | 2.1% | 0.28 | -84% |
-| E.ON | Utilities | 23% | 0.29 | 2.0% | 0.27 | -75% |
+| Infineon | Semiconductors | 49% | 1.55 | 10.3% | 0.42 | -97% |
+| Deutsche Bank | Banks | 31% | 1.46 | 9.8% | 0.18 | -92% |
+| Siemens | Industrials | 26% | 1.40 | 9.4% | 0.46 | -63% |
+| Bayer | Pharma | 45% | 1.39 | 9.2% | 0.34 | -82% |
+| BMW | Autos | 29% | 1.38 | 9.2% | 0.34 | -61% |
+| Mercedes-Benz | Autos | 24% | 1.34 | 8.9% | 0.31 | -76% |
+| Adidas | Consumer | 31% | 1.28 | 8.5% | 0.42 | -68% |
+| BASF | Chemicals | 24% | 1.10 | 7.3% | 0.37 | -58% |
+| Allianz | Insurance | 20% | 0.87 | 5.8% | 0.50 | -73% |
+| Henkel | Consumer | 23% | 0.73 | 4.9% | 0.42 | -54% |
+| SAP | Software | 38% | 0.67 | 4.5% | 0.47 | -50% |
+| Munich Re | Insurance | 19% | 0.60 | 4.0% | 0.60 | -44% |
+| Deutsche Telekom | Telecom | 26% | 0.56 | 3.7% | 0.38 | -39% |
+| RWE | Utilities | 27% | 0.36 | 2.4% | 0.29 | -84% |
+| E.ON | Utilities | 23% | 0.32 | 2.1% | 0.28 | -75% |
 <!-- SNAPSHOT:END -->
 
 ## Backtest: which model would have been right?
